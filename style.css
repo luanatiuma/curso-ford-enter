@@ -4,4 +4,21 @@
 
 body {
     text-align: center;
+    background-color: #9fcdb1;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #20603d;
+    height: 80px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 30px;
 }
