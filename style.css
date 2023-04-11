@@ -1,18 +1,45 @@
+.titulohome {
+    background-image: url("./pictures/title.jpg");
+    background-position: 0%;
+    background-size: cover;
+    height: 75px;
+}
+
+.titulohome h1 {
+    color: #a5a4ac;
+    font-size: 50px;
+    text-align: center;
+}
+
 .title {
-    color: #20603d
+    color: black
+}
+
+p {
+    color: black
+}
+
+h1 h2 {
+    color: black;
 }
 
 body {
     text-align: center;
-    background-color: #9fcdb1;
+    background-color: #a5a4ac;
 }
 
 header {
+    background-color: #1B1B1B;
+    height: 60px; 
+}
+
+.menu ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #20603d;
-    height: 80px;
+    width: 100%;
+    color: #a5a4ac;
+    list-style-type: none;
 }
 
 .menu {
@@ -21,4 +48,24 @@ header {
     align-items: center;
     width: 100%;
     font-size: 30px;
+    height: 100%;
 }
+
+.menu ul li a {
+    text-decoration: none;
+    color: #a5a4ac;
+}
+
+.menu img {
+    height: 100%;
+    width: 250px;
+    object-fit: cover;
+}
+
+footer {
+    color: #a6a6a6;
+    font-size: 12px;
+}
+
+
+
