@@ -1,3 +1,10 @@
+:root{
+    --backgound-color: #a5a4ac;
+    --letter-color: black;
+
+}
+
+/*Página Home*/
 .titulohome {
     background-image: url("./pictures/title.jpg");
     background-position: 0%;
@@ -6,26 +13,26 @@
 }
 
 .titulohome h1 {
-    color: #a5a4ac;
+    color: var(--backgound-color);
     font-size: 50px;
     text-align: center;
 }
 
 .title {
-    color: black
+    color: var(--letter-color);
 }
 
 p {
-    color: black
+    color: var(--letter-color);
 }
 
 h1 h2 {
-    color: black;
+    color: var(--letter-color);
 }
 
 body {
     text-align: center;
-    background-color: #a5a4ac;
+    background-color: var(--backgound-color);
 }
 
 header {
@@ -36,9 +43,9 @@ header {
 .menu ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
-    color: #a5a4ac;
+    color: var(--backgound-color);
     list-style-type: none;
 }
 
@@ -53,7 +60,7 @@ header {
 
 .menu ul li a {
     text-decoration: none;
-    color: #a5a4ac;
+    color: var(--backgound-color);
 }
 
 .menu img {
@@ -62,10 +69,16 @@ header {
     object-fit: cover;
 }
 
+/*footer*/
 footer {
-    color: #a6a6a6;
+    background-color: #1B1B1B;
     font-size: 12px;
 }
+
+.textFooter{
+    color: var(--backgound-color);
+}
+
 
 
 
