@@ -1,0 +1,65 @@
+:root {
+    --colorBorder: #212A3E;
+    --colorBox1: #394867;
+    --colorBox2: #F1F6F9;
+    --colorBox3: #F0EB8D;
+    --backgroundSecond: #5e5e5e;
+}
+
+.parentBox {
+    display: flex;
+    background-color: var(--backgroundSecond);
+    padding: 40px 20px 20px 20px;
+}
+
+.parentBox > p {
+    position: absolute;
+    margin-top: -30px;
+}
+
+.parentBox > .childBox {
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: var(--colorBorder); */
+    border: 2px solid var(--colorBorder);
+    border-radius: 2px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.parentBox > .childBox:nth-child(2) /*o nth mexe com todos os filhos, então a p é o 1° filho*/ {
+    background-color: var(--colorBox1);
+}
+
+.parentBox > .childBox:nth-child(3){
+    background-color: var(--colorBox2);
+}
+
+.parentBox > .childBox:nth-child(4){
+    background-color: var(--colorBox3);
+}
+
+#jc-center > .parentBox {
+    justify-content: center;
+}
+
+#jc-flexStart > .parentBox {
+    justify-content: flex-start;
+}
+
+#jc-flexEnd > .parentBox {
+    justify-content:flex-end;
+}
+
+#jc-spaceBetween > .parentBox {
+    justify-content: space-between;
+}
+
+#jc-spaceAround > .parentBox {
+    justify-content: space-around;
+}
+
+#jc-spaceEvenly > .parentBox {
+    justify-content: space-evenly;
+}

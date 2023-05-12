@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css.css">
 </head>
 <body>
     <header>
@@ -36,6 +37,152 @@
             <li>Display: modifica como as "caixas" da página se comportam, por ex.: se a tag é uma tag inline, ela pode mudar para uma tag block e vice-versa</li>
         </ul>
     </p>
+
+    <h1 class="title">PROPRIEDADES CSS FLEXBOX</h1>
+
+    <section id="displayFlex" class="propertySection">
+        <h2 class="propertyTitle">Display: Flex</h2>
+        <p class="propertyExplanation">Essa é a primeira propriedade que precisa ser declarada com o valor "flex" para que flexbox funcione.</p>
+
+        <div class="parentBox">
+            <p>Parent box</p>
+            <div class="childBox">
+                <p>1</p>
+                <p>child-box</p>
+            </div>
+            <div class="childBox">
+                <p>2</p>
+                <p>child-box</p>
+            </div>
+            <div class="childBox">
+                <p>3</p>
+                <p>child-box</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="justifyContent" class="propertySection">
+        <h2 class="propertyTitle">Justify Content</h2>
+        <p class="propertyExplanation">Essa propriedade é utilizada para justificar o conteúdo.</p>
+
+        <section id="jc-center">
+            <h3>Center</h3>
+            <div class="parentBox">
+                <p>Parent box</p>
+                <div class="childBox">
+                    <p>1</p>
+                    <p>child-box</p>
+                </div>
+                <div class="childBox">
+                    <p>2</p>
+                    <p>child-box</p>
+                </div>
+                <div class="childBox">
+                    <p>3</p>
+                    <p>child-box</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="jc-fexStart">
+            <h3>Flex Start</h3>
+            <div class="parentBox">
+                <p>Parent box</p>
+                <div class="childBox">
+                    <p>1</p>
+                    <p>child-box</p>
+                </div>
+                <div class="childBox">
+                    <p>2</p>
+                    <p>child-box</p>
+                </div>
+                <div class="childBox">
+                    <p>3</p>
+                    <p>child-box</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="jc-flexEnd">
+            <h3>Flex End</h3>
+            <div class="parentBox">
+                <p>Parent box</p>
+                <div class="childBox">
+                    <p>1</p>
+                    <p>child-box</p>
+                </div>
+                <div class="childBox">
+                    <p>2</p>
+                    <p>child-box</p>
+                </div>
+                <div class="childBox">
+                    <p>3</p>
+                    <p>child-box</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="jc-spaceBetween">
+            <h3>Space Between</h3>
+            <div class="parentBox">
+                <p>Parent box</p>
+                <div class="childBox">
+                    <p>1</p>
+                    <p>child-box</p>
+                </div>
+                <div class="childBox">
+                    <p>2</p>
+                    <p>child-box</p>
+                </div>
+                <div class="childBox">
+                    <p>3</p>
+                    <p>child-box</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="jc-spaceAround">
+            <h3>Space Around</h3>
+            <div class="parentBox">
+                <p>Parent box</p>
+                <div class="childBox">
+                    <p>1</p>
+                    <p>child-box</p>
+                </div>
+                <div class="childBox">
+                    <p>2</p>
+                    <p>child-box</p>
+                </div>
+                <div class="childBox">
+                    <p>3</p>
+                    <p>child-box</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="jc-spaceEvenly">
+            <h3>Space Evenly</h3>
+            <div class="parentBox">
+                <p>Parent box</p>
+                <div class="childBox">
+                    <p>1</p>
+                    <p>child-box</p>
+                </div>
+                <div class="childBox">
+                    <p>2</p>
+                    <p>child-box</p>
+                </div>
+                <div class="childBox">
+                    <p>3</p>
+                    <p>child-box</p>
+                </div>
+            </div>
+        </section>
+       
+    </section>
+
+
+
     <footer>
         <p class="textFooter">Site em andamento criado por Luana Tiuma Borba para estudo, curso Ford Enter e plataforma Descodificadas.</p>
         <a href="https://www.descodificadas.com.br">Acesse a plataforma</a>
