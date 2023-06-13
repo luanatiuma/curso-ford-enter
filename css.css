@@ -6,6 +6,10 @@
     --backgroundSecond: #5e5e5e;
 }
 
+.css{
+    font-size: 0.8em;
+}
+
 .parentBox {
     display: flex;
     background-color: var(--backgroundSecond);

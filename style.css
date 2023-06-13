@@ -1,45 +1,13 @@
 :root{
     --backgound-color: #a5a4ac;
     --letter-color: black;
-
+    --letter-title-color: #d7d4e6;
 }
-
-/*Página Home*/
-.titulohome {
-    background-image: url("./pictures/title.jpg");
-    background-position: 0%;
-    background-size: cover;
-    height: 75px;
-}
-
-.titulohome h1 {
-    color: var(--backgound-color);
-    font-size: 50px;
-    text-align: center;
-}
-
-.title {
-    color: var(--letter-color);
-}
-
-p {
-    color: var(--letter-color);
-}
-
-h1 h2 {
-    color: var(--letter-color);
-}
-
-body {
-    text-align: center;
-    background-color: var(--backgound-color);
-}
-
+/*Menu de navegação*/
 header {
     background-color: #1B1B1B;
-    height: 60px; 
+    height: 3.8em; 
 }
-
 .menu ul {
     display: flex;
     flex-direction: row;
@@ -48,37 +16,108 @@ header {
     color: var(--backgound-color);
     list-style-type: none;
 }
-
 .menu {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     width: 100%;
-    font-size: 30px;
+    font-size: 1.5em;
     height: 100%;
 }
-
 .menu ul li a {
     text-decoration: none;
     color: var(--backgound-color);
 }
-
 .menu img {
     height: 100%;
-    width: 250px;
+    width: 15.6em;
     object-fit: cover;
+}
+.title, p, h1, h2{
+    color: var(--letter-color);
+}
+.title {
+    font-size: 2.2em;
+    background-color: var(--letter-title-color);
+    border-radius: 1em;
+}
+body {
+    text-align: center;
+    background-color: var(--backgound-color);
+    font-size: 2em;
+}
+
+/*Página Home*/
+.titulohome {
+    background-image: url("./pictures/title.jpg");
+    background-position: 0%;
+    background-size: cover;
+    height: 4.7em;
+}
+.titulohome h1 {
+    color: var(--letter-title-color);
+    font-size: 3.2em;
+    text-align: center;
+}
+.ambienteVirtual{
+    display: flex;
+    padding: 0.8em;
+}
+.ambienteVirtual p {
+    padding: 0.8em;
+}
+
+/*Página CSS*/
+.title ul{
+    list-style-type: none;
 }
 
 /*footer*/
 footer {
     background-color: #1B1B1B;
-    font-size: 12px;
+    font-size: 1em;
 }
 
 .textFooter{
     color: var(--backgound-color);
 }
 
-
+/*Responsividade*/
+@media screen and (max-width: 958px){
+    .menu {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        font-size: 1.2em;   
+    }
+    .menu ul li a {
+        text-decoration: none;
+        color: var(--backgound-color);
+    }
+    .menu img {
+        height: 100%;
+        width: 14em;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width: 787px){
+    .menu {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        font-size: 1em;   
+    }
+    .menu ul li a {
+        text-decoration: none;
+        color: var(--backgound-color);
+    }
+    .menu img {
+        height: 100%;
+        width: 12em;
+        object-fit: cover;
+    }
+    .titulohome h1 {
+        font-size: 2.5em;
+    }
+}
 
 
