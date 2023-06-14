@@ -20,7 +20,7 @@ header {
     display: flex;
     align-items: center;
     width: 100%;
-    font-size: 1.5em;
+    font-size: 1.3em;
     height: 100%;
 }
 .menu ul li a {
@@ -55,14 +55,11 @@ body {
 }
 .titulohome h1 {
     color: var(--letter-title-color);
-    font-size: 3.2em;
+    font-size: 3em;
     text-align: center;
 }
 .ambienteVirtual{
     display: flex;
-    padding: 0.8em;
-}
-.ambienteVirtual p {
     padding: 0.8em;
 }
 
@@ -82,7 +79,7 @@ footer {
 }
 
 /*Responsividade*/
-@media screen and (max-width: 958px){
+@media screen and (max-width: 1565px){
     .menu {
         display: flex;
         align-items: center;
@@ -99,12 +96,12 @@ footer {
         object-fit: cover;
     }
 }
-@media screen and (max-width: 787px){
+@media screen and (max-width: 1230px){
     .menu {
         display: flex;
         align-items: center;
         width: 100%;
-        font-size: 1em;   
+        font-size: 1.1em;   
     }
     .menu ul li a {
         text-decoration: none;
@@ -117,6 +114,73 @@ footer {
     }
     .titulohome h1 {
         font-size: 2.5em;
+    }
+    .titulohome {
+        background-image: url("./pictures/title.jpg");
+        background-position: 0%;
+        background-size: cover;
+        height: 4em;
+    }
+}
+@media screen and (max-width: 1095px){
+    .menu {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        font-size: 1em;   
+    }
+    .menu img {
+        height: 100%;
+        width: 14em;
+        object-fit: cover;
+    }
+    body {
+        font-size: 1.8em;
+    }
+}
+@media screen and (max-width: 1034px){
+    .menu img {
+        height: 100%;
+        width: 12em;
+        object-fit: cover;
+    }
+    .titulohome h1 {
+        font-size: 1.8em;
+    }
+    .title {
+        font-size: 1.6em;
+    }
+    .ambienteVirtual{
+        display:block;
+        padding: 0.2em;
+    }
+}
+@media screen and (max-width: 400px){
+    .menu {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        font-size: 0.6em;   
+    }
+    .titulohome h1 {
+        font-size: 1.5em;
+    }
+    .titulohome {
+        background-image: url("./pictures/title.jpg");
+        background-position: 0%;
+        background-size: cover;
+        height: 2.4em;
+    }
+    body {
+        font-size: 1em;
+    }
+    .title {
+        font-size: 1.3em;
+    }
+    .ambienteVirtual img{
+        height: 18em;
+        width: auto;
+        object-fit: cover;
     }
 }
 
